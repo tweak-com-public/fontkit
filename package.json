@@ -14,7 +14,7 @@
   "scripts": {
     "test": "mocha",
     "prepublish": "make all",
-    "preinstall": "make all",
+    "postinstall": "make all",
     "preuninstall": "make clean",
     "coverage": "BABEL_ENV=cover nyc mocha"
   },
